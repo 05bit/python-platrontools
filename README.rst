@@ -8,6 +8,7 @@ Platron http://www.platron.ru/ is a Russian electronic payment system. This pack
 Usage example
 =============
 
+::
 	import platrontools
 	platron = platrontools.Client(merchant_id=111, secret='qwertyasdf')
 	r = platron.init_payment(1.0, 'Test payment', '127.0.0.1')
