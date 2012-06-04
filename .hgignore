@@ -4,3 +4,4 @@ syntax: glob
 
 syntax: regexp
 ^.env
+^docs/_build

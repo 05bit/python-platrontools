@@ -16,26 +16,9 @@ Usage example
 	print r['pg_status']
 	print r['pg_redirect_url']
 
-Client class
-============
+Documentation
+=============
 
-.. class:: Client(method='POST', secret=None, merchant_id=None)
+Please, read documentation in **docs** dir.
 
-	Platron API handler class.
-
-	.. method:: init_payment(amount, description, user_ip, **optional)
-
-		Sends request to Platron to initialize new payment.
-
-	.. method:: create_response(data, url)
-
-		Creates XML response by data.
-
-	.. method:: parse_response(xml, url)
-
-		Parses XML response from Platron.
-
-	.. method:: check_signature(data, url)
-
-		Checks data signature, which is send/received by script
-		located at specified ``url``.
+It's brief enough, feedback and questions are welcome.
