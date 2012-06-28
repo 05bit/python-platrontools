@@ -5,6 +5,20 @@ platrontools
 Platron http://www.platron.ru/ is a Russian electronic payment system. This package provides basic tools for interaction with API.
 
 
+Installation
+============
+
+::
+
+	pip install platrontools
+
+or::
+
+	hg clone https://bitbucket.org/05bit/py-platrontools
+	cd py-platrontools
+	python setup.py install
+
+
 Usage example
 =============
 

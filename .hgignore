@@ -5,3 +5,5 @@ syntax: glob
 syntax: regexp
 ^.env
 ^docs/_build
+^platrontools.egg-info
+^dist
