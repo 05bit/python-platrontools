@@ -5,7 +5,8 @@ from setuptools import setup
 version = 0.9
 
 LONG_DESCRIPTION = """
-Python tools for Platron (http://platron.ru) service API
+Platron http://www.platron.ru/ is an online payment service provider.
+This package provides basic tools for interaction with API.
 """
 
 setup(name='platrontools',
@@ -15,7 +16,7 @@ setup(name='platrontools',
       description='Python tools for Platron.ru',
       license='BSD',
       keywords='platron, api',
-      url='https://bitbucket.org/05bit/py-platrontools',
+      url='https://github.com/05bit/python-platrontools',
       packages=['platrontools',],
       long_description=LONG_DESCRIPTION,
       install_requires=['requests',],
